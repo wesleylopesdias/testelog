@@ -1,0 +1,44 @@
+<table style="width:547px;" cellpadding="0" cellspacing="0">
+  <tr>
+    <td>
+      <table style="border:3px solid #999;" bgcolor="#313131" cellpadding="15" cellspacing="0" width="100%">
+        <tr>
+          <td>
+            <div style="margin-bottom:10px;"><img src="cid:logo" alt="SI Logo"/></div>
+            <div style="background-color:#ffffff; padding:15px;">
+            <div id="_announcement">
+              <p><span>Date: ${billingDate}</span></p>
+            </div>
+              <table width="100%">
+                <tr>
+                  <td>
+                    <h1 style="font-weight:normal;">Monthly Billing Summary</h1>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left">Below are the results of the monthly Auto-Bill Cycle:</td>
+                </tr>
+                <tr>
+                  <td><br/></td>
+                </tr>
+                <tr>
+                  <td>
+                    #foreach ($result in $results)
+                        <p>$result</p>
+                    #end
+                  </td>
+                </tr>
+                <tr>
+                  <td><br/></td>
+                </tr>
+              </table>
+            </div>
+            <div style="color:#fff; margin-top:10px; font-size:11px;">
+              &copy; Logicalis Group 2017. All Rights Reserved.
+            </div>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>

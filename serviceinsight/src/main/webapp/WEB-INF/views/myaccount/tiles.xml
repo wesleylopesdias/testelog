@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN" "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+  <definition extends="login" name="myaccount/newpassword">
+    <put-attribute name="body" value="/WEB-INF/views/myaccount/newpassword.jsp"/>
+    <put-attribute name="title-display" value="Reset Password" />
+    <put-attribute name="title-icon" value="fa-unlock" />
+    <put-attribute name="title-class" value="unauthed" />
+  </definition>
+  <definition extends="default" name="myaccount/updatepassword">
+    <put-attribute name="body" value="/WEB-INF/views/myaccount/updatepassword.jsp"/>
+    <put-attribute name="title-display" value="My Account" />
+    <put-attribute name="title-icon" value="fa-user" />
+    <put-attribute name="title-class" value="account" />
+  </definition>
+</tiles-definitions>

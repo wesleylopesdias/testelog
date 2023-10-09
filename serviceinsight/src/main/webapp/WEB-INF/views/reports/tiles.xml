@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN" "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+  <definition extends="default" name="reports/revenue">
+    <put-attribute name="body" value="/WEB-INF/views/reports/revenue.jsp"/>
+    <put-attribute name="title-display" value="Reports" />
+    <put-attribute name="title-icon" value="fa-chart-line" />
+    <put-attribute name="title-class" value="reports" />
+  </definition>
+  
+  <definition extends="default" name="reports/topservices">
+    <put-attribute name="body" value="/WEB-INF/views/reports/top-services.jsp"/>
+    <put-attribute name="title-display" value="Reports" />
+    <put-attribute name="title-icon" value="fa-chart-line" />
+    <put-attribute name="title-class" value="reports" />
+  </definition>
+  
+  <definition extends="default" name="reports/servicedetails">
+    <put-attribute name="body" value="/WEB-INF/views/reports/service-detail.jsp"/>
+    <put-attribute name="title-display" value="Reports" />
+    <put-attribute name="title-icon" value="fa-chart-line" />
+    <put-attribute name="title-class" value="reports" />
+  </definition>
+  
+  <definition extends="default" name="reports/laborbyservice">
+    <put-attribute name="body" value="/WEB-INF/views/reports/labor-by-service.jsp"/>
+    <put-attribute name="title-display" value="Reports" />
+    <put-attribute name="title-icon" value="fa-chart-line" />
+    <put-attribute name="title-class" value="reports" />
+  </definition>
+  
+  <definition extends="default" name="reports/topcustomers">
+    <put-attribute name="body" value="/WEB-INF/views/reports/top-customers.jsp"/>
+    <put-attribute name="title-display" value="Reports" />
+    <put-attribute name="title-icon" value="fa-chart-line" />
+    <put-attribute name="title-class" value="reports" />
+  </definition>
+
+  <definition extends="default" name="reports/pricingpipeline">
+    <put-attribute name="body" value="/WEB-INF/views/reports/pricing-pipeline.jsp"/>
+    <put-attribute name="title-display" value="Reports" />
+    <put-attribute name="title-icon" value="fa-chart-line" />
+    <put-attribute name="title-class" value="reports" />
+  </definition>
+  
+  <definition extends="default" name="reports/laborbreakdown">
+    <put-attribute name="body" value="/WEB-INF/views/reports/labor-breakdown.jsp"/>
+    <put-attribute name="title-display" value="Reports" />
+    <put-attribute name="title-icon" value="fa-chart-line" />
+    <put-attribute name="title-class" value="reports" />
+  </definition>
+  
+  <definition extends="default" name="reports/laborhours">
+    <put-attribute name="body" value="/WEB-INF/views/reports/labor-hours.jsp"/>
+    <put-attribute name="title-display" value="Reports" />
+    <put-attribute name="title-icon" value="fa-chart-line" />
+    <put-attribute name="title-class" value="reports" />
+  </definition>
+  
+  <definition extends="default" name="reports/expensecategories">
+    <put-attribute name="body" value="/WEB-INF/views/reports/expense-categories.jsp"/>
+    <put-attribute name="title-display" value="Reports" />
+    <put-attribute name="title-icon" value="fa-chart-line" />
+    <put-attribute name="title-class" value="reports" />
+  </definition>
+  
+  <definition extends="default" name="reports/azureinvoice">
+    <put-attribute name="body" value="/WEB-INF/views/reports/azure-invoice.jsp"/>
+    <put-attribute name="title-display" value="Reports" />
+    <put-attribute name="title-icon" value="fa-chart-line" />
+    <put-attribute name="title-class" value="reports" />
+  </definition>
+  
+  <definition extends="default" name="reports/awsinvoice">
+    <put-attribute name="body" value="/WEB-INF/views/reports/aws-invoice.jsp"/>
+    <put-attribute name="title-display" value="Reports" />
+    <put-attribute name="title-icon" value="fa-chart-line" />
+    <put-attribute name="title-class" value="reports" />
+  </definition>
+  
+  <definition extends="default" name="reports/spla">
+    <put-attribute name="body" value="/WEB-INF/views/reports/spla.jsp"/>
+    <put-attribute name="title-display" value="Reports" />
+    <put-attribute name="title-icon" value="fa-chart-line" />
+    <put-attribute name="title-class" value="reports" />
+  </definition>
+  
+  <definition extends="default" name="reports/renewals">
+    <put-attribute name="body" value="/WEB-INF/views/reports/renewals.jsp"/>
+    <put-attribute name="title-display" value="Reports" />
+    <put-attribute name="title-icon" value="fa-chart-line" />
+    <put-attribute name="title-class" value="reports" />
+  </definition>
+</tiles-definitions>

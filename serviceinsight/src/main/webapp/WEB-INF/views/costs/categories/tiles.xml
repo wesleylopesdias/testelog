@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN" "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+  <definition extends="default" name="costs/categories/index">
+    <put-attribute name="body" value="/WEB-INF/views/costs/categories/index.jsp"/>
+    <put-attribute name="title-display" value="Costs" />
+    <put-attribute name="title-icon" value="fa-dollar-sign" />
+    <put-attribute name="title-class" value="costs" />
+  </definition>
+</tiles-definitions>

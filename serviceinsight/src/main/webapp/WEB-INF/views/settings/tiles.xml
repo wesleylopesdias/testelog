@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN" "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+  <definition extends="default" name="settings/userslisting">
+    <put-attribute name="body" value="/WEB-INF/views/settings/users.jsp"/>
+    <put-attribute name="title-display" value="Settings" />
+    <put-attribute name="title-icon" value="fa-cog" />
+    <put-attribute name="title-class" value="settings" />
+  </definition>
+  
+  <definition extends="default" name="settings/devices">
+    <put-attribute name="body" value="/WEB-INF/views/settings/devices.jsp"/>
+    <put-attribute name="title-display" value="Settings" />
+    <put-attribute name="title-icon" value="fa-cog" />
+    <put-attribute name="title-class" value="settings" />
+  </definition>
+  
+  <definition extends="default" name="settings/spla">
+    <put-attribute name="body" value="/WEB-INF/views/settings/spla-costs.jsp"/>
+    <put-attribute name="title-display" value="Settings" />
+    <put-attribute name="title-icon" value="fa-cog" />
+    <put-attribute name="title-class" value="settings" />
+  </definition>
+  
+  <definition extends="default" name="settings/m365">
+    <put-attribute name="body" value="/WEB-INF/views/settings/m365.jsp"/>
+    <put-attribute name="title-display" value="Settings" />
+    <put-attribute name="title-icon" value="fa-cog" />
+    <put-attribute name="title-class" value="settings" />
+  </definition>
+  
+</tiles-definitions>

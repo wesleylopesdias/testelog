@@ -1,0 +1,41 @@
+<table style="width:547px;" cellpadding="0" cellspacing="0">
+  <tr>
+    <td>
+      <table style="border:3px solid #999;" bgcolor="#313131" cellpadding="15" cellspacing="0" width="100%">
+        <tr>
+          <td>
+            <div style="margin-bottom:10px;"><img src="cid:logo" alt="SI Logo"/></div>
+            <div style="background-color:#ffffff; padding:15px;">
+              <table width="100%">
+                <tr>
+                  <td>
+                    <h1 style="font-weight:normal;">Unmatched Azure Customer Names</h1>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left">After running the latest monthly Azure Cost Item import for <b>${dateString}</b>, the following Customers were found to not have a matching Service Insight name. <i>This means that the Azure costs for these customers were NOT imported.</i> After updating the Service Insight Customer name information to include the Azure/CSP name / "alias", listed below, RE-RUN the Azure Cost Item import for this same month by clicking <a href="${rerunUrl}">here</a>.</td>
+                </tr>
+                <tr>
+                  <td><br/></td>
+                </tr>
+                <tr>
+                  <td>
+                    #foreach ($result in $results)
+                        <p>$result</p>
+                    #end
+                  </td>
+                </tr>
+                <tr>
+                  <td><br/></td>
+                </tr>
+              </table>
+            </div>
+            <div style="color:#fff; margin-top:10px; font-size:11px;">
+              &copy; Logicalis Group 2017. All Rights Reserved.
+            </div>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>

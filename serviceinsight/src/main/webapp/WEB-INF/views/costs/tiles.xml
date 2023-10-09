@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN" "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+  <definition extends="default" name="costs/index">
+    <put-attribute name="body" value="/WEB-INF/views/costs/index.jsp"/>
+    <put-attribute name="title-display" value="Costs" />
+    <put-attribute name="title-icon" value="fa-dollar-sign" />
+    <put-attribute name="title-class" value="costs" />
+  </definition>
+  
+  <definition extends="default" name="costs/allocations">
+    <put-attribute name="body" value="/WEB-INF/views/costs/allocations.jsp"/>
+    <put-attribute name="title-display" value="Costs Allocations" />
+    <put-attribute name="title-icon" value="fa-dollar-sign" />
+    <put-attribute name="title-class" value="costs" />
+  </definition>
+  
+  <definition extends="default" name="costs/analysis">
+    <put-attribute name="body" value="/WEB-INF/views/costs/cost-analysis.jsp"/>
+    <put-attribute name="title-display" value="Costs Analysis" />
+    <put-attribute name="title-icon" value="fa-dollar-sign" />
+    <put-attribute name="title-class" value="costs" />
+  </definition>
+</tiles-definitions>

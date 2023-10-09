@@ -1,0 +1,2 @@
+insert into customer (name, sn_sys_id) values ('Armstrong International', '2a00443834ccf8c81259236c43b96884');
+insert into contract (alt_id, job_number, name, emgr, customer_id, sdm, sda, signed_date, start_date, end_date, created) values ('ARM-C124', '0174115', 'Armstrong Contract', 'Jen', 4, 'Taylor', 'Johnson', '2014-07-01 00:00:00', '2014-08-01 00:00:00', '2017-07-31 23:59:59', '2014-06-11 16:13:45');

@@ -1,0 +1,29 @@
+/* pickList for roles in Spring and WebWork */
+table.pickList {
+    padding: 0;
+    border-spacing: 0;
+    width: 25%;
+}
+
+table.pickList th.pickLabel {
+    text-align: center;
+}
+
+table.pickList td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+table.pickList td label {
+    vertical-align: middle;
+}
+
+table.pickList td button {
+    padding-bottom: 2px;
+    font-size: 1em;
+}
+
+table.pickList td select {
+    width: 100px;
+}
+

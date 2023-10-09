@@ -1,0 +1,5 @@
+insert into scheduled_task (code, name, description, enabled, created, created_by) values ('sn_customer_sync', 'Service Now Customer Sync', 'Task to Sync the Service Now Customer Sys Id', 1, now(), 'mfoster');
+insert into scheduled_task (code, name, description, enabled, created, created_by) values ('sn_contract_sync', 'Service Now Contract Sync', 'Task to Sync the Service Now Contract Sys Id', 1, now(), 'mfoster');
+insert into scheduled_task (code, name, description, enabled, created, created_by) values ('sn_contract_ci_sync', 'Service Now Contract CI Sync', 'Task to Sync the Service Now Contract CIs', 1, now(), 'mfoster');
+insert into scheduled_task (code, name, description, enabled, created, created_by) values ('one_customer_sync', 'One Customer Sync', 'Task to Sync with One Customer from Pricing', 1, now(), 'mfoster');
+insert into scheduled_task (code, name, description, enabled, created, created_by) values ('chronos_sync', 'Chronos Labor Data Sync', 'Task to Sync with Chronos Timekeeping system for labor data', 1, now(), 'poneil');
